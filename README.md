@@ -11,9 +11,9 @@ Question Asked : To count the number of times speaker1 and speaker2 are repeated
 
 curl command : curl "http://shakespeare.mit.edu/julius_caesar/full.html" -O "input.txt
 
-$ grep -i 'MESSALA' input.txt -c ==> To get the count of MESSALA  in the file.
+$ grep -i 'MESSALA' input.txt -c ==> To get the count of MESSALA  in the file. ==> 46
 
-$ grep -i 'TITINIUS' input.txt -c ==> To get the count of TITINIUS in the file
+$ grep -i 'TITINIUS' input.txt -c ==> To get the count of TITINIUS in the file ==> 36
 
 $ messala=$(grep -i 'MESSALA' input.txt -c) ==> To assign the count of messala to variable messala
 
